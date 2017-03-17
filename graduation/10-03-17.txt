@@ -1,0 +1,12 @@
+## Interface Humano Computador ##
+
+Livro-texto:
+	- Interface Humano-Computador - Simone, Bruno - Editora Campos
+	- Design da interação
+
+Aspectos importantes da interface humano-computador:
+	- Design (projeto)
+	- Construcao
+	- Avaliacao da interface (aperfeicoamento)
+
+

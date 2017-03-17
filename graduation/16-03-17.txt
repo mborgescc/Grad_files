@@ -1,0 +1,7 @@
+## Topicos em seguranca ##
+
+Para ver portas abertas:
+	- Instalar Nexus
+
+Homework:
+	- Buscar roteiro de ataque na internet

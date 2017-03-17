@@ -1,0 +1,36 @@
+## Topicos em seguranca ##
+
+Ataques de seguranca:
+	- Interrupcao (ataque na disponibilidade: Ransonware)
+	- Modificacao (ataque na confidencialidade)
+	- Interceptacao (ataque na integridade)
+	- Fabricacao (ataque na autenticidade)
+
+Objetivos da seguranca:
+	- Privacidade
+	- Integridade
+	- Disponibilidade
+
+Ameacas de software:
+	- Buffer overflow
+	- Negacao de servico
+	- Sistemas proprietatrios de baixa seguranca
+	- Backdoors, virus, trojans
+	- Codigo movel malicioso (ActiveX, Java, Flash, ...)
+	- Gerenciamento de chaves
+	- Atualizacao de sistemas (Patching)
+
+Ameacas a rede:
+	- Protocolos (arquitetura, concepcao, implementacao, configuracao)
+	- Riscos em varias camadas
+	- Informacoes nao criptografadas
+	- Spoofing, sequestro de sessao, "man in the middle"
+	- Firewalls mal configurados
+	- Confianca apenas no firewall
+	- Falhas e ma configuracao em protocolos Wireless
+	- Ma configuracao de equipamentos (roteador, switch, hub)
+
+Homework:
+	- Procurar sobre RedLine (Telefone Vermelho Kremlin Casa Branca)
+	- Pegar um caso de ataque de seguranca e descrever com o maximo de detalhe possivel (para dia 21/03)
+	- Utilizar o John The Ripper e fazer o tutorial do website dele

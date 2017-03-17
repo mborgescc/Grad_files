@@ -1,0 +1,74 @@
+## Projeto de Teste de Software ##
+Website: Facebook group - https://www.facebook.com/groups/693684150727463/
+Book website: http://www.cs.gmu.edu/~offutt/softwaretest/
+
+Ementa:
+	- Introducao e motivacao
+	- Conceitos basicos: defeito, erro, falha, casos de teste, criterios de teste
+	- Processo e plano de teste
+	- Tecnicas de projeto de casos de teste baseadas em grafos, em logica, em particionamento de dados e em sintaxe
+
+Livro-texto:
+	- Introduction to Software Testing - Paul AMMANN and Jeff OFFUTT.
+	- Introducao ao Teste de Software. Marcio Eduardo DELAMARO, Jose Carlos MALDONADO e Mario JINO. (Complementar)
+	- The art of Software Testing - Glenford J. Myers (Referencia classica)
+	- Pratical model-based testing: a tools approach - Mark Utting and Bruno Legeard.
+
+Prova:
+	- Sera aplicada apos particionamento e grafos. Ainda nao foi marcada.
+
+Framework referencia:
+	- Junit (Java): testes de unidade.
+
+O que sao testes:
+	- Processo de executar um program com o o intuito de descobrir defeitos
+	- O objetivo e comprovar um defeito.
+	- O teste deve ser pensado com o objetivo de causar o erro (abordagem destrutiva).
+	- Impossivel cobrir toda e qualquer ramificacao de um software.
+
+Niveis de teste:
+	- Implementacao -> Teste de unidade (unit test)
+	- Detalhamento de design (interacao entre atributos e classes) -> Teste de modulo (module test)
+	- Design de subsistemas (interacao entre blocos do software -> Testes de integracao (integration test)
+	- Design de arquitetura (interacao do software com outras partes do sistema) -> Testes de sistema (system test)
+	- Analise de requisitos (interacao do sistema com o cliente/usuario) -> Testes de aceitacao (acceptance test): verificacao e validacao
+
+Conceitos de inadequacao:
+	- Software fault: defeito - erro do desenvolvedor na implementacao do codigo
+	- Software failure: falha - erro visivel do software para o cliente/usuario
+	- Software error: erro - anomalia da execucao do codigo, causada por um defeito, independente se apresentou falha ou nao
+
+Boa pratica:
+	- E preferivel que o desenvolvedor dos testes seja diferente da pessoa que implementou
+
+Niveis de maturidade de testes:
+	- 0: nao ha diferenca entre teste e debugging
+	- 1: a proposta dos testes e mostrar a corretude do software
+	- 2: a proposta dos testes e mostrar que o software nao fuciona
+	- 3: a proposta dos testes e reduzir o risco de usar o software
+	- 4: a proposta dos testes e alcancar um software de alta qualidade
+
+Dualidade:
+	- Se os testes retornam OK, sera que o software esta bom ou os testes estao ruins?
+
+Por que testamos software:
+	- Melhorar a qualidade
+	- Reduzir os custos
+	- Agradar o cliente
+
+Casos de teste (problema dos triangulos):
+	- Basicos:
+		+ Se passarmos um triangulo com apenas dois lados iguais, o algoritmo respondera isosceles? (correto)
+		+ Se passarmos tres lados iguais, o algoritmo respondera equilatero? (correto)
+		+ Se passarmos tres lados diferente, o algoritmo respondera escaleno? (correto)
+	- Inteiros validos:
+		+ O algoritmo aceita um ou mais lados iguais a 0? (errado)
+		+ O algoritmo aceita uma lado negativo? (errado)
+		+ O algoritmo aceita um lado maior ou igual que a soma dos outros dois? (errado)
+	- Validacao de entrada
+		+ A funcao quebra ou responde incorretamente se passarmos numeros grande demais (overflow)? (errado)
+		+ A funcao quebra se passarmos um tipo diferente de "inteiro"? (errado)
+		+ A funcao quebra se passarmos o numero errado de argumentos? (errado)
+
+Homework:
+	- Instalar Junit

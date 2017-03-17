@@ -1,0 +1,50 @@
+## Data Mining ##
+Website: fabiorangel.github.com
+
+Ementa:
+	- Analise exploratoria
+	- Analise preditiva
+	- Analise de agrupamento
+	- Regras de associacao
+
+Avaliacao:
+	- Feita de varios trabalhos modulares
+	- Possui um projeto final
+	- Media: 30% da media dos trabalhos modulares + 70% da nota do projeto final
+
+Material:
+	- Ambiente virtual de aprendizagem: www.ava.ufrj.br (Mineracao de dados e textos MAB 512)
+	- Email: jonice@dcc.ufrj.br / fabiorangel@dcc.ufrj.br (sempre comecar o titulo com: [DTM 2017-1])
+
+## Topicos em seguranca ##
+Website: https://tinyurl.com/topseg20171
+
+Ementa:
+	- Aula de introducao (Miceli)
+	- Introducao de redes (Miceli)
+	- Introducao de seguranca (Miceli)
+	- Criptografia (Miceli)
+		+ Teoria (Miceli)
+		+ Pratica (Miceli)
+	- Modelos matematicos / risco (Miceli / Sadoc)
+	- Ataques (Miceli)
+		+ Scanner de porta
+		+ Wifi
+		+ Ferramentas
+		+ Metasploit Framework (Matheus)
+	- Comp. Prog.
+	- LAB 1: Buffer Overflow + Assembly
+	- LAB 2: Buffer Overflow + GDB
+	- LAB 3: Shell Code
+	- Modelos Matematicos de Epidemias (Daniel)
+	- Analise de Risco / CVSS (Daniel)
+	- Patch Management (Daniel)
+	- Analise de malwares (Matheus)
+	- Engenharia Reversa de Codigo (Rafael)
+	- Cyber Fisica
+
+Evento: 8 de Abril - FreeSoft (Maria Irene)
+
+Homework:
+	- Ler primeiro capitulo do Kurose
+	- Instalar Kali Linux em alguma VM

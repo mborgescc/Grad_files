@@ -1,0 +1,30 @@
+## Data Mining ##
+
+Tema:
+	- Perceptron Learning Algorithm
+
+Tarefa:
+	- Ver perceptronLearningAlgorithm.py
+
+## Topicos em seguranca ##
+
+Tema:
+	- Introducao a redes
+
+Proposito da rede:
+	- Transmitir informacao entre dois pontos
+
+O que e um protocolo:
+	- Regra para o bom funcionamento
+
+Pilha de protocolos:
+	- Um conjunto de regras para uniformizar o processo de comunicaca
+
+TCP:
+	- Orientados a conexao
+
+UDP:
+	- Nao-orientados a conexao
+
+Homework:
+	- Procurar: ameacas da internet no futuro
