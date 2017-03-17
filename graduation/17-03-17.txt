@@ -1,2 +1,19 @@
 ## Interface Humano Computador ##
 
+Uso e contexto:
+	- As interfaces devem ser apropriadas para todo o publico alvo, mas em especial com os usuarios mais leigos. De nada adianta uma boa interface que nao consegue ser utilizada por alguem que nunca mexeu
+	- Quando a interface necessita ser mais complexa, exigira um investimento em treinamento
+	- Existe uma dificuldade do usuario quando e apresentado a algo diferente do que ele esta acostumado
+	- Funciona como um dialogo entre o usuario e o computador
+
+Objetivo da interface:
+	- Fazer com que essa adaptacao/adequacao do usuario com o sistema aconteca de forma rapida e intuitiva
+
+Cores do projeto:
+	- Procurar sempre palheta de cores
+	- Existem aplicacoes e sites para buscar as cores que combinam, causam contraste, etc... Ex.: 
+		- https://coolors.co/
+		- https://color.adobe.com/pt/create/color-wheel/
+		- http://www.colourlovers.com/
+		- http://moviesincolor.com/
+		- https://www.shutterstock.com/labs/palette/
