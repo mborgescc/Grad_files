@@ -1,0 +1,54 @@
+## Projeto de Testes de Software ##
+
+Condicoes necessarias para que uma falha seja observada:
+	- Alcancabilidade: o defeito precisa ser alcancado, executado...
+	- Infeccao: o defeito precisa causar um erro; o estado do programa deve ficar incorreto
+	- Propagacao: O estado infectado precisa causar alguma saida, retorno ou estado final do programa que seja incorreto
+	- 
+
+Criterios de cobertura:
+	- Criterio de teste: regras/processo para criar requisitos de teste
+	- Requisito de teste: possibilidades/propriedades que os testes precisam satisfazer para delimitar as falhas
+
+Atividades de teste:
+	- Design
+	- Automacao
+	- Execucao
+	- Avaliacao
+
+Criterios baseados em estrutura:
+	- Grafos
+	- Expressoes logicas
+	- Caracterizacao de dominio de entrada
+	- Eestruturas sintaticas
+
+Teste caixa-preta:
+	- Na hora de definir os testes, nao se tem acesso ao codigo
+	- Projeta-se a partir da entrada e saida
+
+Teste caixa-branca:
+	- Na hora de definir os testes, se tem acesso ao codigo
+	- E possivel verificar melhor ramificacoes que podem ser testadas que nao estejam nos requisitos originais
+
+Teste baseado em modelos:
+	- Criar testes a partir de um modelo do software (diagrama UML)
+
+Cobertura de expressoes logicas:
+	- Cobrertura de predicados
+	- Cobertura de clausulas
+	- Cobertura combinatoria
+
+Requsitos insatisfativeis:
+	- Nao existem valores de casos de teste que sigam os requisitos
+	- Codigo morto (dead code)
+	- Requisitos de teste inviaveis (o que e dificil decidir utilizando-se os diversos criterios de teste)
+
+Cobertura de testes:
+	- Todas (ou a maioria) possuem uma ferramenta para testar a taxa de cobertura dos testes
+	- Os criterios de cobertura de arcos sao mais importantes que os criterios de cobertura de nos
+	- Um assert deveria verificar duas coisas sempre:
+		- Se um metodo retorna o valor esperado
+		- Se o metodo leva o programa ao estado esperado
+
+Testando efetivamente:
+	- Quando mexendo com floats, avaliar a necessidade de uma tolerancia, pois 0,999999999999 pode ser igual a 1,0000000000000

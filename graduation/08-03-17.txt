@@ -1,4 +1,4 @@
-## Projeto de Teste de Software ##
+## Projeto de Testes de Software ##
 Website: Facebook group - https://www.facebook.com/groups/693684150727463/
 Book website: http://www.cs.gmu.edu/~offutt/softwaretest/
 
