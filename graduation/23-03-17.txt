@@ -1,0 +1,46 @@
+## Inteligencia Artificial ##
+
+Assunto: 
+	- Prolog
+
+Livro:
+	- Prolog programming for artificial intelligence - Ivan Bratko - Cap. 1 a 5
+
+Composto de:
+	- Fatos:
+		Sintaxe: predicado(argumentos).
+	- Regras:
+		- Sintaxe: cabeca :- corpo1, corpo2, corpo3.
+		- cabeca e apenas um predicado
+
+Elementos da linguagem:
+	- Constantes:
+		- sequencia minusculas de caracteres
+		- se comecar com letra maiuscula, colocar dentro de aspas simples
+	- Numeros:
+		- Positivo: 35
+		- Negativo: -23
+		- Ponto flutuante: 8.45
+	- Variaveis:
+		- sequencia iniciada por letra maiuscula ou underline
+	- Variavel anonima:
+		- undeline apenas
+	- Objetos estruturados: father(X,Y), p(g(Z),a), ...
+
+Listas:
+	- Podem conter qualquer coisa dentro dela
+	- Serao sempre tratadas como [Head|Tail] ou [H|T] onde H e o primeiro elemento e T e uma lista do resto
+
+ATENCAO:
+	- O '=' de Prolog nao e igual ao '=' de outras linguagens... Ele verifica se e possivel unificar
+	- Para utilizar o '=', em vez de fazer 'X = 3+5', sera 'X is 3+5'
+	- Sera cobrado na prova a diferenca de 'is' e '='
+
+## Seguranca ##
+
+Site Security Handbook:
+	- RFC 2196
+
+Homework:
+	- Estudar capitulo 2 do Kurose
+	- Ler a RFC 2196, procurar um servico e elaborar um plano de seguranca para ele
