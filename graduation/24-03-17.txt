@@ -1,0 +1,26 @@
+## Interface Humano Computador ##
+
+Modelo do processador de informacao humano (MPIH):
+	- MIV: Memoria de imagem visual
+	- MIA: Memoria de imagem auditiva
+	- PP: Processador perceptual
+	- PM: Processador motor
+	- PC: Processador cognitivo
+	- Memoria de longa duracao
+	- MCD/MT: Memoria de curta duracao/memoria de trabalho
+
+Abordagens do usuario:
+	- Comportamentalista: baseada em comportamentos observaveis
+	- Simbolica-cognitivista: baseada em estruturas cognitivas
+	- Interacionista: interferencia da cultura e dos instrumentos e signos mediadores...
+
+Formas perceptiveis:
+	- Diferenca de cores
+	- Proximidade 
+	- Boa continuidade
+	- Pregnancia
+	- Clausura
+	- Experiencia passada
+
+Homework:
+	- Estudar os slides de modelos mentais
