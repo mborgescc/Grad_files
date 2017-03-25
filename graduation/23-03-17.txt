@@ -41,6 +41,52 @@ ATENCAO:
 Site Security Handbook:
 	- RFC 2196
 
+Passos para desenvolvimento de um plano de seguranca:
+	- Identifique o que voce esta tentando proteger
+	- Determine do que voce esta tentando se proteger
+	- Determine o quao provaveis sao as ameacas
+	- Implemente medidas as quais protegerao seus recursos importantes de maneira efetiva
+	- Revise o processo continuamente e facca melhorias cada vez que uma fraqueza for encontrada
+
+Objetivo basico da seguranca para cada recurso:
+	- Disponibilidade
+	- Confiabilidade
+	- Integridade
+
+Identificando os riscos:
+	- Identificando os recursos:
+		- Hardware: CPUs, boards, teclados, terminais, estacoes de trabalho, computadores pessoais, impressoras, discos, drives, linhas de comunicacao, servidores de terminais, roteadores.
+		- Software: programas fonte, programas objeto, utilitarios, programas de diagnostico, sistemas operacionais, programas de comunicacao
+		- Dados: durante execucao, armazenados online, arquivados offline, backups, logs de auditoria, bancos de dados, midia de comunicacao
+		- Pessoas: usuarios, administradores, suporte de hardware
+		- Documentacao: programas, hardware, sistemas, local, procedimentos administrativos
+		- Materiais: papel, formularios, fitas, midia magnetica
+	- Identificacao de ameacas:
+		- Acesso sem autorizacao a informacoes ou recursos
+		- Revelacao de informacao sem intencao ou sem autorizacao
+		- Servico negado (Denial of service)
+
+Os planos de seguranca devem ser determinados a partir das seguintes diretrizes:
+	- Servicos oferecidos X Seguranca fornecida
+	- Facilidade de uso X Seguranca
+	- Custo da seguranca X Risco da perda
+
+Caracteristicas de uma boa politica de seguranca:
+	- Deve ser implementavel atraves de proceimentos de administracao, publicacao das regras de uso aceitaveis, ou outros metodos apropriados
+	- Deve ser exigida com ferramentas de seguranca, onde apropriado, e com sancoes onde a prevencao efetiva nao seja tecnicamente possivel
+	- Deve definir claramente as areas de responsabilidade para os usuarios, administradores e gerentes
+
+Componentes de uma boa politica de seguranca:
+	- Guias para a compra de tecnologia computacional que especifiquem os requisitos ou caracteristicas que os produtos devem possuir
+	- Politica de privacidade que defina expectativas razoaveis de privacidade relacionadas a aspectos como a monitoracao de correio eletronico, logs de atividades, e acesso aos arquivos dos usuarios
+	- Politica de acesso que define os direitos e os privilegios para proteger a organizacao de danos, atraves da especificacao de linhas de conduta dos usuarios, pessoal e gerentes. Deve oferecer linhas de conduta para conexoes externas, comunicacao de dados, conexao de dispositivos a uma rede, adicao de novos softwares, etc. Tambem deve especificar quaisquer mensagens de notificacao requerida
+	- Politica de contabilidade que defina as responsabilidades dos usuarios. Deve especificar a capacidade de auditoria, e oferecer a conduta no caso de incidentes.
+	- Politica de autenticacao que estabeleca confianca atraves de uma politica de senhas efetiva, e atraves da linha de conduta para autenticacao de acessos remotos e o uso de dispositivos de autenticacao
+	- Documento de disponibilidade que define as expectativas dos usuarios para a disponibilidade de recursos. Ele deve enderecar aspectos como redundancia e recuperacao, bem como especificar horarios de operacao e de manutencao. Ele tambem deve incluir informacoes de contato para relatar falhas de sistema e de rede
+	- Sistema de tecnologia de informacao e politica de manutencao de rede que descreva como tanto o pessoal de manutencao interno como externo devem manipular e acessar a tecnologia. Um topico importatne a ser tratado aqui e como a manutencao remota e permitida e como tal acesso e controlado. Outra area para considerar aqui e a terceirizacao e como ela e gerenciada
+	- Uma politica de relatorio de violacoes que indique quais os tipos de violacoes devem ser relatados e a quem estes relatos devem ser feitos. Uma atmosfera de nao ameaca e a possibilidade de denuncias anonimas ira resultar em uma grande probabilidade de a violacao ser relatada
+	- Suporte a informacao que ofereca aos usuarios informacoes de contato para cada tipo de violacao; linha de conduta sobre como gerenciar consultas externas sobre um incidente de seguranca, ou informacao que seja considerada confidencial ou proprietaria; referencias cruzadas para procedimentos de seguranca e informacoes relacionadas, tais como as politicas da companhia e leis e regulamentacoes governamentais
+
 Homework:
 	- Estudar capitulo 2 do Kurose
 	- Ler a RFC 2196, procurar um servico e elaborar um plano de seguranca para ele
