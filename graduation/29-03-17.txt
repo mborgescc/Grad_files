@@ -1,0 +1,50 @@
+## Projeto de Testes de Software ##
+
+Teste de particao de espaco de entrada
+	- Esse criterio de teste consiste em escolher um conjuntos finito de entradas que caracterizem todo o dominio da melhor forma
+
+Caracteristicas do dominio de entrada:
+	- costuma ser muito grande, proximo a infinito
+	- Tipos de entrada:
+		- Parametros de um metodo
+		- Dados lidos de um arquivo
+		- Variaveis globais
+		- Entradas de nivel de usuario
+
+Particionando o dominio de entrada:
+	- Ter cuidado para que o teste de uma entrada nao teste a entrada de outra particao que nao a dele
+	- Escolher os valores apenas apos o particionamento dos blocos
+
+Testando:
+	- Encontrar caracteristicas
+	- Particionar cada caracteristica
+	- Combinar caracteristicas
+
+Modelagem do dominio de entrada:
+	- Identificar funcoes testaveis
+	- Encontre todos os parametros:
+		- Parametros passados
+		- Variaveis globais
+		- Candidatos a caracteristicas:
+			- Pre-condicoes e pos-condicoes
+			- Relacionamentos entre variaveis
+			- Relacao de variaveis com valores especiais (zero, null, blank,...)
+	- Modelar o dominio de entrada
+	- Aplicar um criterio de teste para escolher combinacoes de valores
+		- "All combinations":
+			- Testar todas as combinacoes possiveis de todas as caracteristicas de diferentes blocos
+		- "Each choice":
+			- Testar pelo menos uma vez cada caracteristica
+		- "Pair-Wise":
+			- Testar as combinacoes 2 a 2 das possibilidades de caracteristicas
+		- "t-Wise":
+			- Testar as combinacoes t a t das possibilidades de caracteristicas
+		- "Base Choice"
+		- "Multiple Base Choice"
+	- Refinar combinacoes de blocos nas entradas de teste
+
+Abordagens de modelagem de dominio de entrada:
+	- Baseada em interface:
+		- Caixa preta
+	- Baseada em funcionaliade:
+		- Caixa branca

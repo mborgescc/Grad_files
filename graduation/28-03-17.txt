@@ -1,0 +1,38 @@
+## Topicos em Seguranca ##
+
+Objetivo da criptografia:
+	- Confidencialidade
+	- Integridade
+	- Autenticacao
+	- Irretratabilidade
+
+Classificacao da criptografia:
+	- Quanto ao tipo de operacoes:
+		- Substituicao
+		- Transposicao
+	- Quanto ao numero de chaves:
+		- Simetrica
+		- Assimetrica
+	- Quanto a forma de processamento
+		- Por bloco
+		- Por stream (fluxo)
+	- Quanto ao numero de chaves:
+		- Simetrica, convencional, de chave privada
+		- Assimetrica, de chave assimetrica, publica ou de chave dupla
+
+Criptoanalise:
+	- Verificar padroes, dicionarios para descobrir a chave
+
+Criptoanalise linear:
+	- tem amostras da mensagem original:
+		- Sabe o tipo de arquivo
+		- Sabe trechos da mensagem
+
+Tecnicas de encriptacao classica:
+	- Cifrador de Vegenere
+	- Cifra de Cesar
+
+Homework:
+	- Por que a cifra de Vernam e inquebravel?
+	- Construir algoritmo de descriptacao
+	- Procurar esquemas de criptografia classicos
