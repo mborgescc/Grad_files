@@ -19,6 +19,7 @@ Problemas conhecidos:
 	- Problema das duas jarras
 	- Problema do quebra-cabeca com uma peca em branco
 	- Problema das oito rainhas
+	- Mundo do aspirador de po
 
 ## Topicos em Seguranca ##
 
