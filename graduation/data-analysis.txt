@@ -1,0 +1,96 @@
+## Palestra de Big Data ##
+
+Tema:
+	- Ciencia de dados e aplicacoes em bancos
+
+Palestrante:
+	- Eduardo Hruschka (eduardo.hruscka@itau-unibanco.com.br)
+
+Visao sobre big data analytics:
+	- Possui 3 pilares com aplicacoes e tecnicas diversas dependendo do problema:
+		- Machine learning
+		- Estatistica; Otimizacao
+		- Bases de dados; Processamento paralelo e distribuido (engenharia de dados)
+	- Foco no negocio
+
+Cientista de dados:
+	- Ajuda a introduzir mais ciencia no negocio
+	- Contribuir para a melhoria da capacidade de tomada de decisao a partir de dados
+	- Formular, aplicar, desenvolver e testar metodologias de machine learning
+	- Colaborar na descoberta de actionable insights (informacao pronta para basear a tomada de decisao; que pede uma acao)
+	- Acertar o alvo do negocio com precisao
+	- Pessoa ideal:
+		- Conhecimento de:
+			- Ciencia da computacao (machine learning, BD, IA)
+			- Estatistica e Otimizacao
+			- Economia e administracao
+
+Tecnicas e aplicacoes:
+	- Agrupar dados semelhantes/parecidos. Como definir semelhanca?
+	- Em geral, trata-se de um problema dificil pois nao e simples definir um criterio de semelhanca
+	- Abordagens matematicas sao comumente adotadas
+	- Agrupa textos:
+		- Selecionar palavras de interesse (eliminar preposicoes, artigos, etc)
+		- Para cada palavra, computar sua frequencia por texto
+		- Cada palavra torna-se um vetor, onde pode-se medir semlhanca
+		- Encontrar grupos (clusters) de dados similares:
+			- Algoritmo K-means (tem garantia de convergencia para dados numericos):
+				- Complexidade assintotica de tempo: O(i*K*N*n)) - Complexidade e importante para saber como se comportara em producao com todos os dados
+				- Constante de tempo: Distancia euclidiana ao quadrado e mais rapido do que com distancia euclidiana normal
+				- Se tem o custo computacional de produzir um modelo, outro que e coloca-lo em producao.
+				- Pode-se ter tambem problema de espaco em memoria:
+					- Calcular solucao aproximada
+					- Paralelizar ou distribuir (map-reduce) o processamento
+					- Outra solucao e utilizar o sparking (contruir gradient boosting)
+				- Temos o problem de otimizacao multi-modal
+			- Modelos de misturas de gaussianas
+			- Modelos graficos probabilisticos
+			- Algoritmos que combinam busca local e busca global
+		- Boa caixa de ferramentas:
+			- K-means e Bisecting K-means (so tem con)
+			- Indices para estimar K (numero otimo)
+			- K-medoids (converge para qualquer dado de distancia, mas tem complexidade quadratica) :(
+			- Cluster ensembles (combinar solucoes) :(
+			- EM para misturas de gaussianas :(
+	- Classificacao:
+		- Fraude: como detectar automaticamente?
+			- Detectando automaticamente fraudes em transacao com cartoes (feito o calcuo na hora de passar o cartao)
+				- Erros de classificacao custam caro
+		- Predicao de Churn (cliente abandona servico)
+		- Financas (cliente ira cumprir contratos/pagar fatura)
+		- Alinhar atendente a cliente
+		- Recrutamento de profissionais baseado em modelos
+		- Abandono de posto de trabalho
+		- Analise de sentimentos sobre produtos/sevicos
+		- Boa caixa de ferramentas:
+			- Regressao logistica
+			- Regressao linear
+			- Logistic LASSO (evita overfitting)
+			- Naive Bayes (wrapper)
+			- Arvores de decisao e Random Forests
+			- Classifier Ensembles
+			- Engenharia de atributos
+			- SVMs, redes neurais, deep learning (caso o resto nao funcionou)
+	- Regressao:
+		- Onipresente na estatistica; pouco interesse na computacao
+		- Enorme sucesso na pratica, com inumeras aplicacoes em bancos
+		- No contexto de big data: regressao multivariada, mas antes facamos uma digressao
+		- Usar varios modelos simples
+		- Arvores de regressao
+		- Boa caixa de ferramentas:
+			- LASSO
+			- Arvores de regressao/ random forests
+			- Modelos lineares generalizados
+			- K-nearest neighbors
+			- Redes neurais, SVMs
+
+Tendencias e desafios:
+	- Combinar diferentes algoritmos de otimizacao
+	- Diminuir o numero de parametros criticos definidos pelo usuario via ajuste automatico (a partir dos dados)
+	- Crescente numero de novas aplicacoes combinando modelagem + experimentacao controlada + recalibragem automatica de modelos
+	- Questoes eticas do uso de modelos automaticos
+	- "Essencialmente, todos os modelos estao errados, mas alguns sao uteis" (George Box)
+
+Homework: 
+	- Buscar algoritmos de clustering
+	- Construir Gradient Boosting no Sparking

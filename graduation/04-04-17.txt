@@ -1,0 +1,31 @@
+## Inteligencia Artificial ##
+
+Novos simbolos:
+	- NOT: \+
+
+Metodos de busca:
+	- Informados
+	- Nao-informados
+
+Resolucao usando busca:
+	- Formulacao do problema:
+		- Estado inicial
+		- Objetivo
+		- Estados
+		- Acao
+	- Escollher algoritmo
+
+Problemas conhecidos:
+	- Problema das duas jarras
+	- Problema do quebra-cabeca com uma peca em branco
+	- Problema das oito rainhas
+
+## Topicos em Seguranca ##
+
+Plano de seguranca deve definir:
+	- lista de servicos de rede que serao providos
+	- quais areas da organizacao proverao os servicos
+	- quem tera acesso aos servicos
+	- Como o acesso sera provido
+	- quem administrara esses servicos
+	- como incidentes serao tratados

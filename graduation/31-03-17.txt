@@ -1,0 +1,36 @@
+## Interface Humano Computador ##
+
+Requisitos:
+	- Funcionais: o que o produto precisa fazer - Normalmente determina os casos de uso
+	- Nao funcionais: o que o produto precisa ter
+
+User-centered design:
+	- Persona - Descricao imaginativa de um arquetipo de usuario baseado em pesquisas e observacoes:
+		- Nome ficticio de identificacao do perfil
+		- Foto ficticia
+		- Perfil verdadeiro
+		- Frase de efeito verdadeira da entrevista
+		- Descricao da pessoas, caracterizando o perfil abordado
+		- Detalhacao das frustacoes e necessidades
+		- Evitar incluirdetalhes do projeto, interface ou da aplicacao em si
+	- Scenario:
+		- Descricao de um cenario para a persona
+	- User stories/Use cases:
+		- User stories: Pequenos cartoes que expliquem o papel (perfil), o que deseja fazer, e como deseja fazer
+		- Use cases: descricao passo-a-passo de um processo
+	- Teste de prototipo MVP
+
+Ferramentas de coleta de dados:
+	- Brainstorming/brainwriting
+	- Document analysis
+	- Focus group
+	- Interface analysis
+	- Interview
+	- Observation
+	- Prototyping
+	- Requirements workshop
+	- Reverse engineering
+	- Survey
+
+Homework:
+	- Procurar videos de Don Norman

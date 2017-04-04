@@ -1,0 +1,20 @@
+## Inteligencia Artificial ##
+
+Saber bem para a prova:
+	- is, =
+	- !
+	- [X|L]
+	- X<3+5
+
+Explicar na prova:
+	- significado dos predicados criados
+
+## Seguranca ##
+
+GitHubs:
+	- https://github.com/shadow-box/Violent-Python-Examples
+	- https://github.com/walchko/Black-Hat-Python/tree/master/BHP-Code
+
+Homework:
+	- Programar o melhor virus e a melhor criptografia que puder pensar
+	- Pesquisar: como evitar bloqueio de porta
